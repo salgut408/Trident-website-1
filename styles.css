@@ -1,0 +1,275 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+
+.main{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)), 
+              url("images/classyboatbground.jpeg%20.jpg");
+  height: 90vh;
+  background-position: center;
+  color: white;
+  font-size: 2em;
+  background-size: cover;
+  align-content: center;
+ 
+}
+
+
+.centercont {
+  display: grid;
+  place-items: center;
+  background-color: black;
+  background-size: contain;
+  
+ 
+  
+}
+.disclaim{
+  font-size: 7px;
+  align-content: center;
+  justify-self: center;
+}
+
+
+.logo{
+  width: 15%;
+  padding:0;
+  margin: 0;
+  
+}
+
+.boxhead {
+  text-decoration: underline overline navy;
+  padding: 8px;
+}
+
+.icon {
+  width: 20%;
+  height: auto;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.box {
+  flex: 0 1 300px;
+  margin: 5px;
+  border: none;
+  background: lightpink;
+  text-align: center;
+  box-shadow: 7px 5px 5px black;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: lightgrey;
+  
+}
+
+.qinfo{
+  font-size: 70%;
+  line-height: 100%;
+}
+
+body {
+display: grid;
+align-items: center;
+grid-template-rows: auto 1fr auto;
+background-color: lightslategray;
+height: 0;
+  
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+footer {
+  align-self: center;
+}
+
+
+
+
+footer li img {
+  width: 2%;
+ 
+}
+
+
+
+
+
+li, a, button {
+font-family: sans-serif;
+font-size: 12px;
+font-weight: 400;
+text-decoration: none;
+color: black;
+
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+position: sticky;
+background-color: lightgrey;
+}
+
+.logo, button, a{
+cursor: pointer;
+}
+
+.nav_links{
+
+}
+.nav_links li{
+display: inline-block;
+padding: 0px 20px;
+
+}
+
+.nav_links li a {
+transition: all 0.4s ease 0s;
+font-size: 20px;
+}
+
+.nav_links li a:visited{
+  color: beige;
+}
+
+.nav_links li a:hover{
+color: darkgray;
+}
+
+button{
+padding: 9px 25px;
+border: none;
+transition: all 0.4s ease 0s;
+}
+button a:hover{
+  color: darkgray;
+}
+
+button:hover{
+  box-shadow: 7px 5px 5px black;
+}
+
+
+.about {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+  
+}
+
+
+.industrialShip{
+  width: 25%;
+  height: auto;
+  
+  border-radius: 20px;
+
+
+}
+
+.mainCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 20px 20px 5px 50px ;
+}
+
+.blurb{
+margin: 10px 10px;
+width: 500px;
+height: auto;
+ display: grid;
+ place-items: center;
+ text-align: center;
+ font-size: 18px;
+ float: right;
+ 
+}
+.carriers{
+  background-color: white;
+  flex-direction: row;
+  margin: 40px;
+}
+.carrierLogo{
+  height: 20%;
+  width: auto;
+  padding: 20px;
+}
+
+.programText{
+  padding: 20px;
+  font-size: 130%;
+  line-height: 30px;
+  color: lightgrey;
+}
+
+.appetite{
+  
+    font-size: 20px;
+    padding-right: 35px;
+    list-style-type: disc ;
+    color: white;
+    
+ }
+
+ .appetite2{
+  
+  font-size: 18px;
+  margin-left: 20px;
+  list-style-type: circle ;
+  color: white;
+  
+}
+
+.appetite3{
+  
+  font-size: 16px;
+  margin-left: 40px;
+  list-style-type: square ;
+  color: white;
+  padding: .3px;
+  
+}
+
+ .Products{
+   margin-left: 100px;
+   display: flex;
+ }
+
+ .listHead{
+   text-transform: uppercase;
+   color: blue;
+   font-size: 90%;
+   padding: 10px;
+ }
+ .Policy{
+  font-size: 60%;
+ }
+
+ .info{
+   color: white;
+   font-size: 120%;
+   padding: 50px;
+ }
